@@ -2,16 +2,18 @@
 .our-team{
   display: flex;
   justify-content: space-between;
-  
 }
+
 .specialty{
   text-align: center;
  }
+
 .team{
 background: #F5F4FA;
 padding-top: 50px;
 padding-bottom: 94px;
 }
+
 .name-workers {
   font-weight: 500;
   font-size: 16px;
@@ -22,11 +24,13 @@ padding-bottom: 94px;
   padding-top:30px;
   padding-bottom: 10px;
 }
+
 .workers {
   margin-left: 30px;
   width: 270px;
   height: 428px
 }
+
 .workers{
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
@@ -49,6 +53,7 @@ padding-bottom: 94px;
 .social-icon{
   fill:currentColor;
 }
+
 .icon-link:focus,
 .icon-link:hover {
   background-color: var(--accent-color);
