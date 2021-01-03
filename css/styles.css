@@ -121,6 +121,7 @@ img {
   color: var(--accent-color);
 }
 
+
 .navigation-list-link:focus,
 .navigation-list-link:hover{
   color: var(--accent-color);
