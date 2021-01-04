@@ -722,7 +722,7 @@ margin-bottom: 12px;
   border-color: var(--accent-color);
   }
   .modal-check-form:checked + .modal-chek-form-text::before{
-    background-image: url(../images/icon\ check.jpg);
+    background-image: url(../images/icon/check.jpg);
     border: var(--accent-color);  
   }
 
