@@ -7,12 +7,31 @@
     url(../images/fon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-.hero-main-title{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  &-main-title{
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+  &-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  color: #ffffff;  
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  }
+}
+
 
 .main-title-list{
   display: flex;
@@ -36,26 +55,6 @@
   left: 215px;  
 } 
 
-.hero {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1600px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  letter-spacing: 0.06em;
-  color: #ffffff;  
-  text-transform: uppercase;
-  padding-bottom: 30px;
-  }
-
 .undertitle {
   font-weight: 700;
   font-size: 14px;
@@ -75,11 +74,6 @@
   text-align: center;
   color: #212121;
   padding-bottom: 50px;
-}
-
-.images-list{
-  display: flex;
-  padding-bottom: 94px;
 }
 
 .images:not(:last-child){
@@ -108,17 +102,18 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #212121;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06em; 
 }
 
-.button:hover,
-.button:focus {
-  background-color: #2196f3;
+.regular-clients-list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 
 .regular-clients{
   padding-bottom: 94px;
-  padding-top: 94px;
+  padding-top: 94px;   
 }
 
 .title-clients{
@@ -127,12 +122,11 @@ line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-}
 
-.regular-clients-list{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
+&-icon{
+  color: #AFB1B8;
+  max-height: 90px;
+ }
 }
 
 .clients-icon-link{
@@ -145,21 +139,21 @@ color: #212121;
   border-radius: 4px;
   fill: #AFB1B8;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.title-clients-icon{
-  color: #AFB1B8;
-  max-height: 90px;
-}
-
-.clients-icon-link:hover,
-.clients-icon-link:focus{
+  &:hover,
+  &:focus{
  fill: var(--accent-color);
  border-color: var(--accent-color);
+  }
 }
 
 .images{
   position: relative;
+
+  &-list{
+  display: flex;
+  padding-bottom: 94px;
+ }
 }
 
 .applications{
