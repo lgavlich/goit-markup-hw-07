@@ -94,6 +94,7 @@ img {
 .header {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
 }
 
 .header-contact-mail, .header-contacts {
